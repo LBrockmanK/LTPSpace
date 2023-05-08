@@ -1,0 +1,56 @@
+04/02/2023 06:42:03 AM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/02/2023 06:42:03 AM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/02/2023 06:42:03 AM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+04/02/2023 06:42:03 AM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/02/2023 06:42:03 AM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x00000189E8390810>
+04/02/2023 06:42:03 AM [INFO] Recovering from: Logfiles\ltps_2023-04-01_22-19-24.log
+04/02/2023 06:42:03 AM [ERROR] Logfile is complete, aborting recovery.
+04/02/2023 06:42:03 AM [ERROR] Recovery Failed.
+04/02/2023 06:42:03 AM [INFO] Beginning Parameter Space Search...
+04/02/2023 06:42:03 AM [INFO] Testing initial model...
+04/02/2023 06:44:54 AM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000189E83CD1C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/02/2023 06:45:26 AM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000189E6452AC0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/02/2023 06:47:28 AM [INFO] Iteration:2, Time:324.7666885852814, Score:0.6485862029651095
+04/02/2023 06:47:28 AM [INFO] Starting Score: 0.6485862029651095
+04/02/2023 06:47:28 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 8;
+04/02/2023 06:47:28 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 8;
+04/02/2023 06:47:28 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 8;
+04/02/2023 06:47:28 AM [DEBUG] Trying Dense1Size from 699 to 1024
+04/02/2023 06:54:39 AM [INFO] Iteration:3, Time:430.18710136413574, Score:0.5446384516991469
+04/02/2023 06:54:39 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 8;
+04/02/2023 06:54:39 AM [DEBUG] Trying Dense1Size from 699 to 188
+04/02/2023 06:59:48 AM [INFO] Iteration:4, Time:309.4427287578583, Score:0.5774721646195187
+04/02/2023 06:59:48 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 3; Direction: True; Stage: 8;
+04/02/2023 06:59:48 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 7;
+04/02/2023 06:59:48 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 7;
+04/02/2023 06:59:48 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 7;
+04/02/2023 06:59:49 AM [DEBUG] Trying Dense1Size from 699 to 955
+04/02/2023 07:06:06 AM [INFO] Iteration:5, Time:376.9810199737549, Score:0.6053465888123934
+04/02/2023 07:06:06 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 7;
+04/02/2023 07:06:06 AM [DEBUG] Trying Dense1Size from 699 to 443
+04/02/2023 07:11:11 AM [INFO] Iteration:6, Time:305.28038024902344, Score:0.579910888221612
+04/02/2023 07:11:11 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 3; Direction: True; Stage: 7;
+04/02/2023 07:11:11 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 6;
+04/02/2023 07:11:11 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 6;
+04/02/2023 07:11:11 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 6;
+04/02/2023 07:11:11 AM [DEBUG] Trying Dense1Size from 699 to 827
+04/02/2023 07:17:04 AM [INFO] Iteration:7, Time:353.03787422180176, Score:0.6338210908823669
+04/02/2023 07:17:04 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 6;
+04/02/2023 07:17:05 AM [DEBUG] Trying Dense1Size from 699 to 571
+04/02/2023 07:22:42 AM [INFO] Iteration:8, Time:337.88915514945984, Score:0.6290078181342897
+04/02/2023 07:22:43 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 3; Direction: True; Stage: 6;
+04/02/2023 07:22:43 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 5;
+04/02/2023 07:22:43 AM [INFO] Status Update - Score: 0.6485862029651095; Parameters: [42, 17, 699, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 5;
+04/02/2023 07:22:43 AM [DEBUG] Trying Conv2DSize-2 from 17 to 80
+04/02/2023 07:34:51 AM [INFO] Iteration:9, Time:728.7738621234894, Score:0.6648590422904699
+04/02/2023 07:34:52 AM [INFO] Improvement found, new high score: 0.6648590422904699
+04/02/2023 07:34:52 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 5;
+04/02/2023 07:34:52 AM [DEBUG] Trying Dense1Size from 699 to 763
+04/02/2023 07:47:55 AM [INFO] Iteration:10, Time:782.8312876224518, Score:0.5277543004198837
+04/02/2023 07:47:55 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 5;
+04/02/2023 07:47:55 AM [DEBUG] Trying Dense1Size from 699 to 635
+04/02/2023 07:59:20 AM [INFO] Iteration:11, Time:685.278566122055, Score:0.514527167537212
+04/02/2023 07:59:20 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 3; Direction: True; Stage: 5;
+04/02/2023 07:59:20 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 4;
+04/02/2023 07:59:20 AM [DEBUG] Trying Conv2DSize-1 from 42 to 64

@@ -1,0 +1,34 @@
+03/29/2023 10:27:20 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+03/29/2023 10:27:20 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+03/29/2023 10:27:20 PM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+03/29/2023 10:27:20 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+03/29/2023 10:27:20 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000026203BB9D10>
+03/29/2023 10:27:20 PM [INFO] Recovering from: Logfiles\ltps_2023-03-29_11-26-22.log
+03/29/2023 10:27:20 PM [INFO] Recovered score: 0.6885485451847979
+03/29/2023 10:27:20 PM [INFO] Recovered params: [1, 94, 684, 0.2]
+03/29/2023 10:27:20 PM [INFO] Recovered currentparam: 2
+03/29/2023 10:27:20 PM [INFO] Recovered direction: False
+03/29/2023 10:27:20 PM [INFO] Recovered stages: 0
+03/29/2023 10:27:20 PM [INFO] Beginning Parameter Space Search...
+03/29/2023 10:27:20 PM [INFO] Status Update - Score: 0.6885485451847979; Parameters: [1, 94, 684, 0.2]; Currentparam: 2; Direction: False; Stage: 0;
+03/29/2023 10:27:20 PM [DEBUG] Trying Dense1Size from 684 to 682
+03/29/2023 10:34:23 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x00000262089E0680> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/29/2023 10:36:14 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000026203E4D9E0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/29/2023 10:41:23 PM [INFO] Iteration:2, Time:843.0262229442596, Score:0.6078873506032278
+03/29/2023 10:41:24 PM [INFO] Status Update - Score: 0.6885485451847979; Parameters: [1, 94, 684, 0.2]; Currentparam: 3; Direction: True; Stage: 0;
+03/29/2023 10:41:24 PM [DEBUG] Trying Dropout1 from 0.2 to 0.30000000000000004
+03/29/2023 10:55:00 PM [INFO] Iteration:3, Time:816.0775172710419, Score:0.6695521073189706
+03/29/2023 10:55:00 PM [INFO] Status Update - Score: 0.6885485451847979; Parameters: [1, 94, 684, 0.2]; Currentparam: 3; Direction: False; Stage: 0;
+03/29/2023 10:55:00 PM [DEBUG] Trying Dropout1 from 0.2 to 0.1
+03/29/2023 11:07:53 PM [INFO] Iteration:4, Time:772.877688407898, Score:0.5273885616101117
+03/29/2023 11:07:53 PM [INFO] Parameters converged, performing final scoring...
+
+03/29/2023 11:15:19 PM [INFO] Learning Curve Data:
+03/29/2023 11:15:19 PM [INFO] Sample Sizes:             60      120      180      240      300      360      420      480      540      600
+03/29/2023 11:15:19 PM [INFO] Train Scores:        0.73171  0.94118  0.91979  0.94024  0.93333  0.91777  0.91469  0.75500  0.90943  0.77108
+03/29/2023 11:15:19 PM [INFO] Test Scores:         0.66538  0.53979  0.68369  0.76973  0.67094  0.70183  0.69792  0.21875  0.44240  0.65823
+03/29/2023 11:15:19 PM [INFO] Validation Scores:   0.70270  0.51064  0.71429  0.76923  0.67980  0.69672  0.70244  0.29630  0.57561  0.70588
+03/29/2023 11:15:20 PM [INFO] Final Parameters:
+[1, 94, 684, 0.2]
+03/29/2023 11:15:20 PM [INFO] Total runtime: 2879.693197250366

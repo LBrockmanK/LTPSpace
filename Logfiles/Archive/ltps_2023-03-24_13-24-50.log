@@ -1,0 +1,78 @@
+03/24/2023 01:24:50 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+03/24/2023 01:24:50 PM [INFO] Added parameter: Dense1Size: min=1, max=256, is_integer=True, resolution=1, stages=6
+03/24/2023 01:24:50 PM [INFO] Added parameter: Dense2Size: min=1, max=256, is_integer=True, resolution=1, stages=6
+03/24/2023 01:24:50 PM [INFO] Beginning run:
+
+03/24/2023 01:24:50 PM [INFO] Correct Number of Parameters...
+03/24/2023 01:24:50 PM [INFO] Testing initial model...
+03/24/2023 01:25:11 PM [INFO] Starting Score: 0.6583333333333333
+03/24/2023 01:25:11 PM [INFO] Beginning Parameter Space Search...
+03/24/2023 01:25:11 PM [INFO] Current Stage: 6
+03/24/2023 01:25:32 PM [INFO] Iteration:1, Time:21.25343608856201, Score:0.6583333333333333
+03/24/2023 01:25:54 PM [INFO] Iteration:2, Time:21.662283182144165, Score:0.725
+03/24/2023 01:26:14 PM [INFO] Iteration:3, Time:20.06683874130249, Score:0.725
+03/24/2023 01:26:33 PM [INFO] Iteration:4, Time:18.92117476463318, Score:0.725
+03/24/2023 01:26:51 PM [INFO] Iteration:5, Time:18.255241632461548, Score:0.725
+03/24/2023 01:27:11 PM [INFO] Iteration:6, Time:19.605578422546387, Score:0.725
+03/24/2023 01:27:11 PM [INFO] Current Stage: 5
+03/24/2023 01:27:31 PM [INFO] Iteration:7, Time:20.268515586853027, Score:0.725
+03/24/2023 01:27:50 PM [INFO] Iteration:8, Time:19.149309396743774, Score:0.725
+03/24/2023 01:28:08 PM [INFO] Iteration:9, Time:17.906799793243408, Score:0.725
+03/24/2023 01:28:27 PM [INFO] Iteration:10, Time:18.48437523841858, Score:0.725
+03/24/2023 01:28:45 PM [INFO] Iteration:11, Time:18.34360098838806, Score:0.725
+03/24/2023 01:28:45 PM [INFO] Current Stage: 4
+03/24/2023 01:29:04 PM [INFO] Iteration:12, Time:18.601186275482178, Score:0.725
+03/24/2023 01:29:21 PM [INFO] Iteration:13, Time:17.736074686050415, Score:0.725
+03/24/2023 01:29:40 PM [INFO] Iteration:14, Time:18.630640029907227, Score:0.725
+03/24/2023 01:29:59 PM [INFO] Iteration:15, Time:18.61965775489807, Score:0.725
+03/24/2023 01:30:18 PM [INFO] Iteration:16, Time:19.65400004386902, Score:0.725
+03/24/2023 01:30:18 PM [INFO] Current Stage: 3
+03/24/2023 01:30:38 PM [INFO] Iteration:17, Time:19.798767566680908, Score:0.725
+03/24/2023 01:30:58 PM [INFO] Iteration:18, Time:19.44034242630005, Score:0.725
+03/24/2023 01:31:16 PM [INFO] Iteration:19, Time:18.69653558731079, Score:0.725
+03/24/2023 01:31:35 PM [INFO] Iteration:20, Time:18.801865100860596, Score:0.725
+03/24/2023 01:31:54 PM [INFO] Iteration:21, Time:18.810851097106934, Score:0.725
+03/24/2023 01:31:54 PM [INFO] Current Stage: 2
+03/24/2023 01:32:14 PM [INFO] Iteration:22, Time:19.873648405075073, Score:0.725
+03/24/2023 01:32:35 PM [INFO] Iteration:23, Time:21.00882863998413, Score:0.725
+03/24/2023 01:32:54 PM [INFO] Iteration:24, Time:19.54767084121704, Score:0.725
+03/24/2023 01:33:13 PM [INFO] Iteration:25, Time:18.77291202545166, Score:0.725
+03/24/2023 01:33:32 PM [INFO] Iteration:26, Time:18.590704441070557, Score:0.725
+03/24/2023 01:33:32 PM [INFO] Current Stage: 1
+03/24/2023 01:33:51 PM [INFO] Iteration:27, Time:19.20771551132202, Score:0.725
+03/24/2023 01:34:13 PM [INFO] Iteration:28, Time:21.858965635299683, Score:0.725
+03/24/2023 01:34:33 PM [INFO] Iteration:29, Time:19.773808479309082, Score:0.725
+03/24/2023 01:34:52 PM [INFO] Iteration:30, Time:19.534191846847534, Score:0.725
+03/24/2023 01:35:10 PM [INFO] Iteration:31, Time:18.356080532073975, Score:0.725
+03/24/2023 01:35:10 PM [INFO] Current Stage: 0
+03/24/2023 01:35:28 PM [INFO] Iteration:32, Time:17.97568988800049, Score:0.725
+03/24/2023 01:35:46 PM [INFO] Iteration:33, Time:18.00913643836975, Score:0.725
+03/24/2023 01:36:06 PM [INFO] Iteration:34, Time:19.617558479309082, Score:0.725
+03/24/2023 01:36:25 PM [INFO] Iteration:35, Time:19.18275547027588, Score:0.725
+03/24/2023 01:36:45 PM [INFO] Iteration:36, Time:19.472790002822876, Score:0.725
+03/24/2023 01:36:45 PM [INFO] Parameters converged, performing final scoring...
+
+03/24/2023 01:36:45 PM [INFO] Generate learning curve
+03/24/2023 01:36:52 PM [INFO] Samples:Score - 20:0.5388888888888889
+03/24/2023 01:37:00 PM [INFO] Samples:Score - 30:0.5176470588235295
+03/24/2023 01:37:11 PM [INFO] Samples:Score - 40:0.44375
+03/24/2023 01:37:23 PM [INFO] Samples:Score - 50:0.5266666666666666
+03/24/2023 01:37:37 PM [INFO] Samples:Score - 60:0.5071428571428571
+03/24/2023 01:37:54 PM [INFO] Samples:Score - 70:0.4230769230769231
+03/24/2023 01:38:12 PM [INFO] Samples:Score - 80:0.5333333333333333
+03/24/2023 01:38:31 PM [INFO] Samples:Score - 90:0.5454545454545454
+03/24/2023 01:38:55 PM [INFO] Samples:Score - 100:0.49
+03/24/2023 01:39:19 PM [INFO] Samples:Score - 110:0.4444444444444444
+03/24/2023 01:39:45 PM [INFO] Samples:Score - 120:0.525
+03/24/2023 01:40:15 PM [INFO] Samples:Score - 130:0.42857142857142855
+03/24/2023 01:40:47 PM [WARNING] 5 out of the last 14 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002A26323FA60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/24/2023 01:40:47 PM [INFO] Samples:Score - 140:0.45
+03/24/2023 01:41:19 PM [WARNING] 5 out of the last 12 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000002A20CC17A60> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/24/2023 01:41:19 PM [INFO] Samples:Score - 150:0.38
+03/24/2023 01:41:54 PM [INFO] Samples:Score - 160:0.45
+03/24/2023 01:42:29 PM [INFO] Samples:Score - 170:0.6666666666666666
+03/24/2023 01:43:07 PM [INFO] Samples:Score - 180:0.6
+03/24/2023 01:43:46 PM [INFO] Samples:Score - 190:0.4
+03/24/2023 01:43:46 PM [INFO] Final Parameters:
+[1, 128, 128]
+03/24/2023 01:43:46 PM [INFO] Total runtime: 1135.4386925697327

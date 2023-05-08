@@ -1,0 +1,288 @@
+05/06/2023 05:55:32 PM [INFO] Added parameter: Conv2DSize-1: min=18, max=18, is_integer=True, resolution=1, stages=-1
+05/06/2023 05:55:32 PM [INFO] Added parameter: Conv2DSize-2: min=128, max=128, is_integer=True, resolution=1, stages=-1
+05/06/2023 05:55:32 PM [INFO] Added parameter: Dense1Size: min=976, max=976, is_integer=True, resolution=1, stages=-1
+05/06/2023 05:55:32 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000002C6D43F8EE0>
+05/06/2023 05:55:32 PM [INFO] Parameters converged, performing final scoring...
+
+05/06/2023 05:55:45 PM [INFO]               precision    recall  f1-score   support
+
+           0       1.00      0.37      0.54        89
+           1       0.62      1.00      0.76        91
+
+    accuracy                           0.69       180
+   macro avg       0.81      0.69      0.65       180
+weighted avg       0.81      0.69      0.65       180
+
+05/06/2023 05:55:47 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.96      0.05      0.09      1101
+           1       0.52      1.00      0.68      1119
+
+    accuracy                           0.53      2220
+   macro avg       0.74      0.52      0.39      2220
+weighted avg       0.74      0.53      0.39      2220
+
+05/06/2023 05:55:50 PM [INFO]               precision    recall  f1-score   support
+
+           0       1.00      0.03      0.05       288
+           1       0.53      1.00      0.69       312
+
+    accuracy                           0.53       600
+   macro avg       0.76      0.51      0.37       600
+weighted avg       0.75      0.53      0.38       600
+
+05/06/2023 05:56:15 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.66       178
+           1       1.00      0.01      0.02       182
+
+    accuracy                           0.50       360
+   macro avg       0.75      0.51      0.34       360
+weighted avg       0.75      0.50      0.34       360
+
+05/06/2023 05:56:17 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.66      1012
+           1       0.50      0.00      0.00      1028
+
+    accuracy                           0.50      2040
+   macro avg       0.50      0.50      0.33      2040
+weighted avg       0.50      0.50      0.33      2040
+
+05/06/2023 05:56:18 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.48      1.00      0.65       288
+           1       0.00      0.00      0.00       312
+
+    accuracy                           0.48       600
+   macro avg       0.24      0.50      0.32       600
+weighted avg       0.23      0.48      0.31       600
+
+05/06/2023 05:56:56 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.97      0.77      0.86       268
+           1       0.81      0.97      0.88       272
+
+    accuracy                           0.87       540
+   macro avg       0.89      0.87      0.87       540
+weighted avg       0.89      0.87      0.87       540
+
+05/06/2023 05:56:58 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.78      0.44      0.56       922
+           1       0.62      0.88      0.72       938
+
+    accuracy                           0.66      1860
+   macro avg       0.70      0.66      0.64      1860
+weighted avg       0.70      0.66      0.64      1860
+
+05/06/2023 05:56:59 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.78      0.49      0.60       288
+           1       0.65      0.87      0.74       312
+
+    accuracy                           0.69       600
+   macro avg       0.71      0.68      0.67       600
+weighted avg       0.71      0.69      0.68       600
+
+05/06/2023 05:57:39 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.84      0.97      0.90       357
+           1       0.96      0.81      0.88       363
+
+    accuracy                           0.89       720
+   macro avg       0.90      0.89      0.89       720
+weighted avg       0.90      0.89      0.89       720
+
+05/06/2023 05:57:40 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.59      0.85      0.70       833
+           1       0.74      0.43      0.54       847
+
+    accuracy                           0.64      1680
+   macro avg       0.67      0.64      0.62      1680
+weighted avg       0.67      0.64      0.62      1680
+
+05/06/2023 05:57:41 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.60      0.87      0.71       288
+           1       0.80      0.47      0.59       312
+
+    accuracy                           0.66       600
+   macro avg       0.70      0.67      0.65       600
+weighted avg       0.70      0.66      0.65       600
+
+05/06/2023 05:59:08 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.66       446
+           1       0.00      0.00      0.00       454
+
+    accuracy                           0.50       900
+   macro avg       0.25      0.50      0.33       900
+weighted avg       0.25      0.50      0.33       900
+
+05/06/2023 05:59:10 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.50      1.00      0.66       744
+           1       0.00      0.00      0.00       756
+
+    accuracy                           0.50      1500
+   macro avg       0.25      0.50      0.33      1500
+weighted avg       0.25      0.50      0.33      1500
+
+05/06/2023 05:59:11 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.48      1.00      0.65       288
+           1       0.00      0.00      0.00       312
+
+    accuracy                           0.48       600
+   macro avg       0.24      0.50      0.32       600
+weighted avg       0.23      0.48      0.31       600
+
+05/06/2023 06:00:25 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.64      0.93      0.76       535
+           1       0.87      0.48      0.62       545
+
+    accuracy                           0.70      1080
+   macro avg       0.76      0.71      0.69      1080
+weighted avg       0.76      0.70      0.69      1080
+
+05/06/2023 06:00:26 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.54      0.80      0.64       655
+           1       0.62      0.33      0.43       665
+
+    accuracy                           0.56      1320
+   macro avg       0.58      0.56      0.54      1320
+weighted avg       0.58      0.56      0.54      1320
+
+05/06/2023 06:00:27 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.52      0.77      0.62       288
+           1       0.61      0.33      0.43       312
+
+    accuracy                           0.54       600
+   macro avg       0.56      0.55      0.52       600
+weighted avg       0.57      0.54      0.52       600
+
+05/06/2023 06:01:26 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.90      0.51      0.65       625
+           1       0.66      0.94      0.78       635
+
+    accuracy                           0.73      1260
+   macro avg       0.78      0.73      0.72      1260
+weighted avg       0.78      0.73      0.72      1260
+
+05/06/2023 06:01:28 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.61      0.28      0.38       565
+           1       0.54      0.82      0.65       575
+
+    accuracy                           0.55      1140
+   macro avg       0.57      0.55      0.52      1140
+weighted avg       0.57      0.55      0.52      1140
+
+05/06/2023 06:01:28 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.54      0.24      0.33       288
+           1       0.54      0.81      0.65       312
+
+    accuracy                           0.54       600
+   macro avg       0.54      0.53      0.49       600
+weighted avg       0.54      0.54      0.49       600
+
+05/06/2023 06:02:56 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.87      0.78      0.82       714
+           1       0.80      0.88      0.84       726
+
+    accuracy                           0.83      1440
+   macro avg       0.84      0.83      0.83      1440
+weighted avg       0.83      0.83      0.83      1440
+
+05/06/2023 06:02:57 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.75      0.68      0.72       476
+           1       0.71      0.78      0.74       484
+
+    accuracy                           0.73       960
+   macro avg       0.73      0.73      0.73       960
+weighted avg       0.73      0.73      0.73       960
+
+05/06/2023 06:02:58 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.73      0.68      0.70       288
+           1       0.72      0.77      0.74       312
+
+    accuracy                           0.73       600
+   macro avg       0.73      0.72      0.72       600
+weighted avg       0.73      0.72      0.72       600
+
+05/06/2023 06:04:14 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.84      0.95      0.89       803
+           1       0.94      0.83      0.88       817
+
+    accuracy                           0.89      1620
+   macro avg       0.89      0.89      0.89      1620
+weighted avg       0.89      0.89      0.89      1620
+
+05/06/2023 06:04:15 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.63      0.79      0.70       387
+           1       0.73      0.55      0.63       393
+
+    accuracy                           0.67       780
+   macro avg       0.68      0.67      0.67       780
+weighted avg       0.68      0.67      0.67       780
+
+05/06/2023 06:04:16 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.64      0.86      0.74       288
+           1       0.81      0.56      0.66       312
+
+    accuracy                           0.70       600
+   macro avg       0.73      0.71      0.70       600
+weighted avg       0.73      0.70      0.70       600
+
+05/06/2023 06:05:30 PM [INFO]               precision    recall  f1-score   support
+
+           0       1.00      0.04      0.07       892
+           1       0.51      1.00      0.68       908
+
+    accuracy                           0.52      1800
+   macro avg       0.76      0.52      0.38      1800
+weighted avg       0.75      0.52      0.38      1800
+
+05/06/2023 06:05:32 PM [INFO]               precision    recall  f1-score   support
+
+           0       0.83      0.02      0.03       298
+           1       0.51      1.00      0.67       302
+
+    accuracy                           0.51       600
+   macro avg       0.67      0.51      0.35       600
+weighted avg       0.67      0.51      0.35       600
+
+05/06/2023 06:05:32 PM [INFO]               precision    recall  f1-score   support
+
+           0       1.00      0.01      0.01       288
+           1       0.52      1.00      0.69       312
+
+    accuracy                           0.52       600
+   macro avg       0.76      0.50      0.35       600
+weighted avg       0.75      0.52      0.36       600
+
+05/06/2023 06:05:42 PM [INFO] Learning Curve Data:
+05/06/2023 06:05:46 PM [INFO] Sample Sizes:            180      360      540      720      900     1080     1260     1440     1620     1800
+05/06/2023 06:05:46 PM [INFO] Train Scores:        0.68889  0.50000  0.87222  0.89028  0.49556  0.70463  0.73016  0.83194  0.88704  0.52278
+05/06/2023 06:05:46 PM [INFO] Test Scores:         0.52748  0.49608  0.66129  0.63690  0.49600  0.56136  0.55351  0.73021  0.67051  0.51000
+05/06/2023 06:05:46 PM [INFO] Validation Scores:   0.53333  0.48000  0.68833  0.66167  0.48000  0.54333  0.53667  0.72500  0.70333  0.52333
+05/06/2023 06:05:46 PM [INFO] Train ROC AUC:       0.87653  0.62406  0.94526  0.93192  0.85410  0.88269  0.84154  0.87387  0.94117  0.66270
+05/06/2023 06:05:46 PM [INFO] Test ROC AUC:        0.61779  0.45556  0.68912  0.67002  0.75761  0.71807  0.59182  0.67069  0.71594  0.59945
+05/06/2023 06:05:46 PM [INFO] Validation ROC AUC:  0.64436  0.46970  0.71956  0.70371  0.76624  0.74780  0.56912  0.68773  0.76205  0.53639
+05/06/2023 06:05:46 PM [INFO] Final Parameters:
+[18, 128, 976]
+05/06/2023 06:05:46 PM [INFO] Total runtime: 613.8313658237457

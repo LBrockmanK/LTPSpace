@@ -1,0 +1,112 @@
+03/25/2023 03:29:35 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+03/25/2023 03:29:35 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+03/25/2023 03:29:35 PM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+03/25/2023 03:29:35 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+03/25/2023 03:29:35 PM [INFO] Beginning run:
+
+03/25/2023 03:29:35 PM [INFO] Beginning Parameter Space Search...
+03/25/2023 03:29:35 PM [INFO] Testing initial model...
+03/25/2023 03:29:45 PM [INFO] Iteration:2, Time:9.876810312271118, Score:0.0
+03/25/2023 03:29:45 PM [INFO] Starting Score: 0.0
+03/25/2023 03:29:45 PM [INFO] Current Stage: 8
+03/25/2023 03:29:45 PM [INFO] Current Values: [32, 64, 512, 0.4]
+03/25/2023 03:29:45 PM [DEBUG] Trying Dense1Size from 512 to 1024
+03/25/2023 03:29:55 PM [INFO] Iteration:3, Time:9.311681270599365, Score:0.0
+03/25/2023 03:29:55 PM [DEBUG] Trying Dense1Size from 512 to 1
+03/25/2023 03:29:57 PM [WARNING] 5 out of the last 9 calls to <function Model.make_test_function.<locals>.test_function at 0x0000025B287D9080> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/25/2023 03:30:02 PM [WARNING] 6 out of the last 11 calls to <function Model.make_test_function.<locals>.test_function at 0x0000025B282E8C20> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/25/2023 03:30:04 PM [INFO] Iteration:4, Time:9.765820503234863, Score:0.33774834437086093
+03/25/2023 03:30:04 PM [DEBUG] Improvement found, new high score: 0.33774834437086093
+03/25/2023 03:30:04 PM [INFO] Current Stage: 7
+03/25/2023 03:30:04 PM [INFO] Current Values: [32, 64, 1, 0.4]
+03/25/2023 03:30:04 PM [DEBUG] Trying Dense1Size from 1 to 257
+03/25/2023 03:30:12 PM [INFO] Iteration:5, Time:7.545681715011597, Score:0.32885906040268453
+03/25/2023 03:30:12 PM [INFO] Current Stage: 6
+03/25/2023 03:30:12 PM [INFO] Current Values: [32, 64, 1, 0.4]
+03/25/2023 03:30:12 PM [DEBUG] Trying Dense1Size from 1 to 129
+03/25/2023 03:30:19 PM [INFO] Iteration:6, Time:7.59330940246582, Score:0.3103448275862069
+03/25/2023 03:30:19 PM [INFO] Current Stage: 5
+03/25/2023 03:30:19 PM [INFO] Current Values: [32, 64, 1, 0.4]
+03/25/2023 03:30:19 PM [DEBUG] Trying Conv2DSize-2 from 64 to 128
+03/25/2023 03:30:27 PM [INFO] Iteration:7, Time:7.214189529418945, Score:0.0
+03/25/2023 03:30:27 PM [DEBUG] Trying Conv2DSize-2 from 64 to 1
+03/25/2023 03:30:34 PM [INFO] Iteration:8, Time:7.528250694274902, Score:0.3103448275862069
+03/25/2023 03:30:34 PM [DEBUG] Trying Dense1Size from 1 to 65
+03/25/2023 03:30:42 PM [INFO] Iteration:9, Time:7.33495831489563, Score:0.3103448275862069
+03/25/2023 03:30:42 PM [INFO] Current Stage: 4
+03/25/2023 03:30:42 PM [INFO] Current Values: [32, 64, 1, 0.4]
+03/25/2023 03:30:42 PM [DEBUG] Trying Conv2DSize-1 from 32 to 64
+03/25/2023 03:30:49 PM [INFO] Iteration:10, Time:7.3440656661987305, Score:0.3197278911564626
+03/25/2023 03:30:49 PM [DEBUG] Trying Conv2DSize-1 from 32 to 1
+03/25/2023 03:30:56 PM [INFO] Iteration:11, Time:7.321443796157837, Score:0.32885906040268453
+03/25/2023 03:30:56 PM [DEBUG] Trying Conv2DSize-2 from 64 to 96
+03/25/2023 03:31:03 PM [INFO] Iteration:12, Time:7.195943593978882, Score:0.3464052287581699
+03/25/2023 03:31:03 PM [DEBUG] Improvement found, new high score: 0.3464052287581699
+03/25/2023 03:31:03 PM [DEBUG] Trying Dense1Size from 1 to 33
+03/25/2023 03:31:12 PM [INFO] Iteration:13, Time:8.75803017616272, Score:0.33774834437086093
+03/25/2023 03:31:12 PM [INFO] Current Stage: 3
+03/25/2023 03:31:12 PM [INFO] Current Values: [32, 96, 1, 0.4]
+03/25/2023 03:31:12 PM [DEBUG] Trying Conv2DSize-1 from 32 to 48
+03/25/2023 03:31:21 PM [INFO] Iteration:14, Time:8.97780466079712, Score:0.33774834437086093
+03/25/2023 03:31:21 PM [DEBUG] Trying Conv2DSize-1 from 32 to 16
+03/25/2023 03:31:30 PM [INFO] Iteration:15, Time:9.041258573532104, Score:0.666429587482219
+03/25/2023 03:31:30 PM [DEBUG] Improvement found, new high score: 0.666429587482219
+03/25/2023 03:31:30 PM [DEBUG] Trying Conv2DSize-2 from 96 to 112
+03/25/2023 03:31:37 PM [INFO] Iteration:16, Time:6.745025157928467, Score:0.0
+03/25/2023 03:31:37 PM [DEBUG] Trying Conv2DSize-2 from 96 to 80
+03/25/2023 03:31:44 PM [INFO] Iteration:17, Time:6.7726452350616455, Score:0.32885906040268453
+03/25/2023 03:31:44 PM [DEBUG] Trying Dense1Size from 1 to 17
+03/25/2023 03:31:50 PM [INFO] Iteration:18, Time:6.531553745269775, Score:0.31972789115646255
+03/25/2023 03:31:50 PM [INFO] Current Stage: 2
+03/25/2023 03:31:50 PM [INFO] Current Values: [16, 96, 1, 0.4]
+03/25/2023 03:31:50 PM [DEBUG] Trying Conv2DSize-1 from 16 to 24
+03/25/2023 03:31:57 PM [INFO] Iteration:19, Time:6.479622840881348, Score:0.32885906040268453
+03/25/2023 03:31:57 PM [DEBUG] Trying Conv2DSize-1 from 16 to 8
+03/25/2023 03:32:04 PM [INFO] Iteration:20, Time:6.915139436721802, Score:0.0
+03/25/2023 03:32:04 PM [DEBUG] Trying Conv2DSize-2 from 96 to 104
+03/25/2023 03:32:10 PM [INFO] Iteration:21, Time:6.70542049407959, Score:0.34210526315789475
+03/25/2023 03:32:10 PM [DEBUG] Trying Conv2DSize-2 from 96 to 88
+03/25/2023 03:32:17 PM [INFO] Iteration:22, Time:6.486137628555298, Score:0.666429587482219
+03/25/2023 03:32:17 PM [DEBUG] Trying Dense1Size from 1 to 9
+03/25/2023 03:32:23 PM [INFO] Iteration:23, Time:6.475693941116333, Score:0.31506849315068497
+03/25/2023 03:32:23 PM [DEBUG] Trying Dropout1 from 0.4 to 0.8
+03/25/2023 03:32:30 PM [INFO] Iteration:24, Time:6.732581615447998, Score:0.0
+03/25/2023 03:32:30 PM [DEBUG] Trying Dropout1 from 0.4 to 0.1
+03/25/2023 03:32:37 PM [INFO] Iteration:25, Time:6.488282918930054, Score:0.0
+03/25/2023 03:32:37 PM [INFO] Current Stage: 1
+03/25/2023 03:32:37 PM [INFO] Current Values: [16, 96, 1, 0.4]
+03/25/2023 03:32:37 PM [DEBUG] Trying Conv2DSize-1 from 16 to 20
+03/25/2023 03:32:43 PM [INFO] Iteration:26, Time:6.426761865615845, Score:0.34210526315789475
+03/25/2023 03:32:43 PM [DEBUG] Trying Conv2DSize-1 from 16 to 12
+03/25/2023 03:32:49 PM [INFO] Iteration:27, Time:6.3844239711761475, Score:0.31506849315068497
+03/25/2023 03:32:49 PM [DEBUG] Trying Conv2DSize-2 from 96 to 100
+03/25/2023 03:32:56 PM [INFO] Iteration:28, Time:6.398249626159668, Score:0.29577464788732394
+03/25/2023 03:32:56 PM [DEBUG] Trying Conv2DSize-2 from 96 to 92
+03/25/2023 03:33:02 PM [INFO] Iteration:29, Time:6.754351615905762, Score:0.32432432432432434
+03/25/2023 03:33:02 PM [DEBUG] Trying Dense1Size from 1 to 5
+03/25/2023 03:33:09 PM [INFO] Iteration:30, Time:6.522546291351318, Score:0.32432432432432434
+03/25/2023 03:33:09 PM [DEBUG] Trying Dropout1 from 0.4 to 0.6000000000000001
+03/25/2023 03:33:16 PM [INFO] Iteration:31, Time:6.5122129917144775, Score:0.32885906040268453
+03/25/2023 03:33:16 PM [DEBUG] Trying Dropout1 from 0.4 to 0.2
+03/25/2023 03:33:22 PM [INFO] Iteration:32, Time:6.4500017166137695, Score:0.28571428571428575
+03/25/2023 03:33:22 PM [INFO] Current Stage: 0
+03/25/2023 03:33:22 PM [INFO] Current Values: [16, 96, 1, 0.4]
+03/25/2023 03:33:22 PM [DEBUG] Trying Conv2DSize-1 from 16 to 18
+03/25/2023 03:33:28 PM [INFO] Iteration:33, Time:6.519428730010986, Score:0.31972789115646255
+03/25/2023 03:33:28 PM [DEBUG] Trying Conv2DSize-1 from 16 to 14
+03/25/2023 03:33:35 PM [INFO] Iteration:34, Time:6.84879469871521, Score:0.30069930069930073
+03/25/2023 03:33:35 PM [DEBUG] Trying Conv2DSize-2 from 96 to 98
+03/25/2023 03:33:42 PM [INFO] Iteration:35, Time:6.748185396194458, Score:0.31972789115646255
+03/25/2023 03:33:42 PM [DEBUG] Trying Conv2DSize-2 from 96 to 94
+03/25/2023 03:33:49 PM [INFO] Iteration:36, Time:6.446265697479248, Score:0.32885906040268453
+03/25/2023 03:33:49 PM [DEBUG] Trying Dense1Size from 1 to 3
+03/25/2023 03:33:55 PM [INFO] Iteration:37, Time:6.4027392864227295, Score:0.0
+03/25/2023 03:33:55 PM [DEBUG] Trying Dropout1 from 0.4 to 0.5
+03/25/2023 03:34:02 PM [INFO] Iteration:38, Time:6.707263231277466, Score:0.32885906040268453
+03/25/2023 03:34:02 PM [DEBUG] Trying Dropout1 from 0.4 to 0.30000000000000004
+03/25/2023 03:34:08 PM [INFO] Iteration:39, Time:6.442646503448486, Score:0.3333333333333333
+03/25/2023 03:34:08 PM [INFO] Parameters converged, performing final scoring...
+
+03/25/2023 03:34:08 PM [INFO] Final Parameters:
+[16, 96, 1, 0.4]
+03/25/2023 03:34:08 PM [INFO] Total runtime: 272.74409461021423

@@ -1,0 +1,15 @@
+04/20/2023 09:49:03 PM [INFO] Added parameter: Conv2DSize-1: min=16, max=16, is_integer=True, resolution=1, stages=-1
+04/20/2023 09:49:03 PM [INFO] Added parameter: Conv2DSize-2: min=73, max=73, is_integer=True, resolution=1, stages=-1
+04/20/2023 09:49:03 PM [INFO] Added parameter: Dense1Size: min=1024, max=1024, is_integer=True, resolution=1, stages=-1
+04/20/2023 09:49:03 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000001FF35B59150>
+04/20/2023 09:49:03 PM [INFO] Parameters converged, performing final scoring...
+
+04/21/2023 09:30:04 AM [INFO] Learning Curve Data:
+04/21/2023 09:30:04 AM [INFO] Sample Sizes:           6932    13864    20796    27728    34660    41592    48524    55456    62388    69321
+04/21/2023 09:30:04 AM [INFO] Train Scores:        0.71437  0.70268  0.75976  0.72977  0.71304  0.74368  0.71573  0.67273  0.60444  0.74542
+04/21/2023 09:30:04 AM [INFO] Test Scores:         0.67650  0.68064  0.72796  0.72241  0.70118  0.73723  0.70836  0.66596  0.60136  0.74181
+04/21/2023 09:30:04 AM [INFO] Validation Scores:   0.67665  0.68154  0.72399  0.72114  0.70409  0.73299  0.71097  0.66462  0.59997  0.74476
+04/21/2023 09:30:05 AM [INFO] Final Parameters:
+[16, 73, 1024]
+04/21/2023 09:30:05 AM [INFO] Total runtime: 42062.12475156784

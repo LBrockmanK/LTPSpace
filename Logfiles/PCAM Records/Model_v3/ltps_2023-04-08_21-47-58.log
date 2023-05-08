@@ -1,0 +1,54 @@
+04/08/2023 09:47:58 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/08/2023 09:47:58 PM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/08/2023 09:47:58 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/08/2023 09:47:58 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000028814DCF450>
+04/08/2023 09:47:58 PM [INFO] Recovering from: Logfiles\ltps_2023-04-07_21-41-09.log
+04/08/2023 09:47:58 PM [INFO] Recovered score: 0.75125
+04/08/2023 09:47:58 PM [INFO] Recovered params: [86, 820, 0.8]
+04/08/2023 09:47:58 PM [INFO] Recovered currentparam: 1
+04/08/2023 09:47:58 PM [INFO] Recovered direction: True
+04/08/2023 09:47:58 PM [INFO] Recovered stages: 1
+04/08/2023 09:47:58 PM [INFO] Beginning Parameter Space Search...
+04/08/2023 09:47:58 PM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 1; Direction: True; Stage: 1;
+04/08/2023 09:47:58 PM [DEBUG] Trying Dense1Size from 820 to 822
+04/08/2023 10:14:53 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000028814F05120> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/08/2023 10:20:44 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000028819AFDEE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/08/2023 10:39:51 PM [INFO] Iteration:2, Time:3112.926718711853, Score:0.7337499999999999
+04/08/2023 10:39:51 PM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 1; Direction: False; Stage: 1;
+04/08/2023 10:39:51 PM [DEBUG] Trying Dense1Size from 820 to 818
+04/08/2023 11:26:42 PM [INFO] Iteration:3, Time:2810.7900774478912, Score:0.7275
+04/08/2023 11:26:42 PM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 2; Direction: True; Stage: 1;
+04/08/2023 11:26:42 PM [DEBUG] Trying Dropout1 from 0.8 to 0.9
+04/09/2023 12:13:16 AM [INFO] Iteration:4, Time:2794.199466943741, Score:0.73375
+04/09/2023 12:13:17 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 2; Direction: False; Stage: 1;
+04/09/2023 12:13:17 AM [DEBUG] Trying Dropout1 from 0.8 to 0.6000000000000001
+04/09/2023 12:59:59 AM [INFO] Iteration:5, Time:2802.38841176033, Score:0.71
+04/09/2023 12:59:59 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 0; Direction: True; Stage: 0;
+04/09/2023 12:59:59 AM [DEBUG] Trying Conv2DSize from 86 to 88
+04/09/2023 01:47:36 AM [INFO] Iteration:6, Time:2856.563530445099, Score:0.7412500000000001
+04/09/2023 01:47:36 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 0; Direction: False; Stage: 0;
+04/09/2023 01:47:36 AM [DEBUG] Trying Conv2DSize from 86 to 84
+04/09/2023 02:33:05 AM [INFO] Iteration:7, Time:2729.1063055992126, Score:0.6975
+04/09/2023 02:33:06 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 1; Direction: True; Stage: 0;
+04/09/2023 02:33:06 AM [DEBUG] Trying Dense1Size from 820 to 821
+04/09/2023 03:20:08 AM [INFO] Iteration:8, Time:2822.2713952064514, Score:0.67
+04/09/2023 03:20:08 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 1; Direction: False; Stage: 0;
+04/09/2023 03:20:08 AM [DEBUG] Trying Dense1Size from 820 to 819
+04/09/2023 04:07:20 AM [INFO] Iteration:9, Time:2832.067888736725, Score:0.7262500000000001
+04/09/2023 04:07:21 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 2; Direction: True; Stage: 0;
+04/09/2023 04:07:21 AM [DEBUG] Trying Dropout1 from 0.8 to 0.9
+04/09/2023 04:53:52 AM [INFO] Iteration:10, Time:2790.8995218276978, Score:0.7275
+04/09/2023 04:53:52 AM [INFO] Status Update - Score: 0.75125; Parameters: [86, 820, 0.8]; Currentparam: 2; Direction: False; Stage: 0;
+04/09/2023 04:53:52 AM [DEBUG] Trying Dropout1 from 0.8 to 0.7000000000000001
+04/09/2023 05:39:29 AM [INFO] Iteration:11, Time:2737.3101069927216, Score:0.70875
+04/09/2023 05:39:30 AM [INFO] Parameters converged, performing final scoring...
+
+04/09/2023 06:02:13 AM [INFO] Learning Curve Data:
+04/09/2023 06:02:13 AM [INFO] Sample Sizes:             60      120      180      240      300      360      420      480      540      600
+04/09/2023 06:02:13 AM [INFO] Train Scores:        0.50000  0.73333  0.92778  0.80417  0.85000  0.90278  0.89286  0.91250  0.92593  0.86167
+04/09/2023 06:02:13 AM [INFO] Test Scores:         0.49189  0.57941  0.73065  0.64107  0.70400  0.73864  0.76316  0.70312  0.70000  0.69000
+04/09/2023 06:02:13 AM [INFO] Validation Scores:   0.45000  0.54000  0.67500  0.64500  0.67500  0.78000  0.70000  0.73000  0.65000  0.72500
+04/09/2023 06:02:13 AM [INFO] Final Parameters:
+[86, 820, 0.8]
+04/09/2023 06:02:13 AM [INFO] Total runtime: 29655.74737381935

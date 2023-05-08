@@ -1,0 +1,23 @@
+04/25/2023 10:28:19 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/25/2023 10:28:19 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/25/2023 10:28:19 PM [INFO] Added parameter: Dense1Size: min=768, max=1024, is_integer=True, resolution=1, stages=7
+04/25/2023 10:28:19 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000027996F39550>
+04/25/2023 10:28:19 PM [INFO] Recovering from: Logfiles\ltps_2023-04-24_21-16-49.log
+04/25/2023 10:28:19 PM [INFO] Recovered score: 0.6789166666666667
+04/25/2023 10:28:19 PM [INFO] Recovered params: [18, 108, 992]
+04/25/2023 10:28:19 PM [INFO] Recovered currentparam: 1
+04/25/2023 10:28:19 PM [INFO] Recovered direction: True
+04/25/2023 10:28:19 PM [INFO] Recovered stages: 4
+04/25/2023 10:28:19 PM [INFO] Beginning Parameter Space Search...
+04/25/2023 10:28:19 PM [INFO] Status Update - Score: 0.6789166666666667; Parameters: [18, 108, 992]; Currentparam: 1; Direction: True; Stage: 4;
+04/25/2023 10:28:19 PM [DEBUG] Trying Conv2DSize-2 from 108 to 128
+04/26/2023 03:27:22 AM [INFO] Iteration:2, Time:17943.685371398926, Score:0.6626666666666666
+04/26/2023 03:27:23 AM [INFO] Status Update - Score: 0.6789166666666667; Parameters: [18, 108, 992]; Currentparam: 1; Direction: False; Stage: 4;
+04/26/2023 03:27:23 AM [DEBUG] Trying Conv2DSize-2 from 108 to 76
+04/26/2023 06:24:48 AM [INFO] Iteration:3, Time:10645.369760751724, Score:0.6618333333333334
+04/26/2023 06:24:48 AM [INFO] Status Update - Score: 0.6789166666666667; Parameters: [18, 108, 992]; Currentparam: 2; Direction: True; Stage: 4;
+04/26/2023 06:24:48 AM [DEBUG] Trying Dense1Size from 992 to 1008
+04/26/2023 10:36:21 AM [INFO] Iteration:4, Time:15093.004194021225, Score:0.6556666666666667
+04/26/2023 10:36:21 AM [INFO] Status Update - Score: 0.6789166666666667; Parameters: [18, 108, 992]; Currentparam: 2; Direction: False; Stage: 4;
+04/26/2023 10:36:22 AM [DEBUG] Trying Dense1Size from 992 to 976

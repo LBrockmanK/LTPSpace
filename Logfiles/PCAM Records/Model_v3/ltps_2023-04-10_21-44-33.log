@@ -1,0 +1,33 @@
+04/10/2023 09:44:33 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/10/2023 09:44:33 PM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/10/2023 09:44:33 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/10/2023 09:44:33 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000023A16E2FB10>
+04/10/2023 09:44:33 PM [INFO] Recovering from: Logfiles\ltps_2023-04-09_21-16-26.log
+04/10/2023 09:44:33 PM [INFO] Recovered score: 0.73
+04/10/2023 09:44:33 PM [INFO] Recovered params: [174, 1024, 0.6000000000000001]
+04/10/2023 09:44:33 PM [INFO] Recovered currentparam: 0
+04/10/2023 09:44:33 PM [INFO] Recovered direction: False
+04/10/2023 09:44:33 PM [INFO] Recovered stages: 3
+04/10/2023 09:44:33 PM [INFO] Beginning Parameter Space Search...
+04/10/2023 09:44:33 PM [INFO] Status Update - Score: 0.73; Parameters: [174, 1024, 0.6000000000000001]; Currentparam: 0; Direction: False; Stage: 3;
+04/10/2023 09:44:33 PM [DEBUG] Trying Conv2DSize from 174 to 158
+04/10/2023 10:35:33 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000023A447D5120> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/10/2023 10:45:44 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000023A493C1EE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/10/2023 11:25:55 PM [INFO] Iteration:2, Time:6082.089196681976, Score:0.71625
+04/10/2023 11:25:55 PM [INFO] Status Update - Score: 0.73; Parameters: [174, 1024, 0.6000000000000001]; Currentparam: 1; Direction: True; Stage: 3;
+04/10/2023 11:25:55 PM [DEBUG] Trying Dense1Size from 1024 to 1016
+04/11/2023 01:12:51 AM [INFO] Iteration:3, Time:6415.655717611313, Score:0.6824999999999999
+04/11/2023 01:12:51 AM [INFO] Status Update - Score: 0.73; Parameters: [174, 1024, 0.6000000000000001]; Currentparam: 2; Direction: True; Stage: 3;
+04/11/2023 01:12:51 AM [INFO] Status Update - Score: 0.73; Parameters: [174, 1024, 0.6000000000000001]; Currentparam: 0; Direction: True; Stage: 2;
+04/11/2023 01:12:51 AM [DEBUG] Trying Conv2DSize from 174 to 182
+04/11/2023 03:04:44 AM [INFO] Iteration:4, Time:6712.531463861465, Score:0.73125
+04/11/2023 03:04:44 AM [INFO] Improvement found, new high score: 0.73125
+04/11/2023 03:04:44 AM [INFO] Status Update - Score: 0.73125; Parameters: [182, 1024, 0.6000000000000001]; Currentparam: 1; Direction: True; Stage: 2;
+04/11/2023 03:04:44 AM [DEBUG] Trying Dense1Size from 1024 to 1020
+04/11/2023 04:55:22 AM [INFO] Iteration:5, Time:6637.825922966003, Score:0.6850000000000002
+04/11/2023 04:55:23 AM [INFO] Status Update - Score: 0.73125; Parameters: [182, 1024, 0.6000000000000001]; Currentparam: 2; Direction: True; Stage: 2;
+04/11/2023 04:55:23 AM [DEBUG] Trying Dropout1 from 0.6000000000000001 to 0.9
+04/11/2023 06:45:59 AM [INFO] Iteration:6, Time:6636.399881601334, Score:0.7100000000000001
+04/11/2023 06:45:59 AM [INFO] Status Update - Score: 0.73125; Parameters: [182, 1024, 0.6000000000000001]; Currentparam: 2; Direction: False; Stage: 2;
+04/11/2023 06:45:59 AM [DEBUG] Trying Dropout1 from 0.6000000000000001 to 0.2

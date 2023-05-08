@@ -1,0 +1,14 @@
+04/05/2023 08:49:57 AM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/05/2023 08:49:57 AM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/05/2023 08:49:57 AM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/05/2023 08:49:57 AM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000001F93D731E90>
+04/05/2023 08:49:57 AM [INFO] Recovering from: Logfiles\ltps_2023-04-05_04-04-27.log
+04/05/2023 08:49:57 AM [INFO] Recovered score: 0.7430728646318615
+04/05/2023 08:49:57 AM [INFO] Recovered params: [213, 820, 0.8]
+04/05/2023 08:49:57 AM [INFO] Recovered currentparam: 1
+04/05/2023 08:49:57 AM [INFO] Recovered direction: False
+04/05/2023 08:49:57 AM [INFO] Recovered stages: 8
+04/05/2023 08:49:57 AM [INFO] Beginning Parameter Space Search...
+04/05/2023 08:49:57 AM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 1; Direction: False; Stage: 8;
+04/05/2023 08:49:57 AM [DEBUG] Trying Dense1Size from 820 to 564

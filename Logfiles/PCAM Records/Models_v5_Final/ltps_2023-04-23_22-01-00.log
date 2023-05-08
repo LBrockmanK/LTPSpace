@@ -1,0 +1,23 @@
+04/23/2023 10:01:00 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/23/2023 10:01:00 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/23/2023 10:01:00 PM [INFO] Added parameter: Dense1Size: min=768, max=1024, is_integer=True, resolution=1, stages=7
+04/23/2023 10:01:00 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x00000208A9C838D0>
+04/23/2023 10:01:00 PM [INFO] Recovering from: Logfiles\ltps_2023-04-22_22-04-56.log
+04/23/2023 10:01:00 PM [INFO] Recovered score: 0.595
+04/23/2023 10:01:00 PM [INFO] Recovered params: [50, 45, 974]
+04/23/2023 10:01:00 PM [INFO] Recovered currentparam: 2
+04/23/2023 10:01:00 PM [INFO] Recovered direction: True
+04/23/2023 10:01:00 PM [INFO] Recovered stages: 6
+04/23/2023 10:01:00 PM [INFO] Beginning Parameter Space Search...
+04/23/2023 10:01:00 PM [INFO] Status Update - Score: 0.595; Parameters: [50, 45, 974]; Currentparam: 2; Direction: True; Stage: 6;
+04/23/2023 10:01:00 PM [DEBUG] Trying Dense1Size from 974 to 1024
+04/24/2023 01:10:34 AM [INFO] Iteration:2, Time:11374.381266355515, Score:0.6303333333333333
+04/24/2023 01:10:35 AM [INFO] Improvement found, new high score: 0.6303333333333333
+04/24/2023 01:10:35 AM [INFO] Status Update - Score: 0.6303333333333333; Parameters: [50, 45, 1024]; Currentparam: 0; Direction: True; Stage: 5;
+04/24/2023 01:10:35 AM [INFO] Status Update - Score: 0.6303333333333333; Parameters: [50, 45, 1024]; Currentparam: 1; Direction: True; Stage: 5;
+04/24/2023 01:10:35 AM [DEBUG] Trying Conv2DSize-2 from 45 to 108
+04/24/2023 06:29:39 AM [INFO] Iteration:3, Time:19144.49117898941, Score:0.6545833333333334
+04/24/2023 06:29:39 AM [INFO] Improvement found, new high score: 0.6545833333333334
+04/24/2023 06:29:39 AM [INFO] Status Update - Score: 0.6545833333333334; Parameters: [50, 108, 1024]; Currentparam: 2; Direction: True; Stage: 5;
+04/24/2023 06:29:39 AM [DEBUG] Trying Dense1Size from 1024 to 992

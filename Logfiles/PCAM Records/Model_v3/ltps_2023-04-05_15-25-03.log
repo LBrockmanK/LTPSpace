@@ -1,0 +1,45 @@
+04/05/2023 03:25:03 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/05/2023 03:25:03 PM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/05/2023 03:25:03 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/05/2023 03:25:03 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000001D2FCA3CE90>
+04/05/2023 03:25:03 PM [INFO] Recovering from: Logfiles\ltps_2023-04-05_15-23-50.log
+04/05/2023 03:25:03 PM [INFO] Recovered score: 0.7430728646318615
+04/05/2023 03:25:03 PM [INFO] Recovered params: [213, 820, 0.8]
+04/05/2023 03:25:03 PM [INFO] Recovered currentparam: 1
+04/05/2023 03:25:03 PM [INFO] Recovered direction: True
+04/05/2023 03:25:03 PM [INFO] Recovered stages: 7
+04/05/2023 03:25:03 PM [INFO] Beginning Parameter Space Search...
+04/05/2023 03:25:03 PM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 1; Direction: True; Stage: 7;
+04/05/2023 03:25:03 PM [DEBUG] Trying Dense1Size from 820 to 948
+04/05/2023 03:25:06 PM [ERROR] Unexpected error occurred: in user code:
+
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\training.py", line 1284, in train_function  *
+        return step_function(self, iterator)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\training.py", line 1268, in step_function  **
+        outputs = model.distribute_strategy.run(run_step, args=(data,))
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\training.py", line 1249, in run_step  **
+        outputs = model.train_step(data)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\training.py", line 1055, in train_step
+        return self.compute_metrics(x, y, y_pred, sample_weight)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\training.py", line 1149, in compute_metrics
+        self.compiled_metrics.update_state(y, y_pred, sample_weight)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\compile_utils.py", line 577, in update_state
+        self.build(y_pred, y_true)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\compile_utils.py", line 483, in build
+        self._metrics = tf.__internal__.nest.map_structure_up_to(
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\compile_utils.py", line 631, in _get_metric_objects
+        return [self._get_metric_object(m, y_t, y_p) for m in metrics]
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\compile_utils.py", line 631, in <listcomp>
+        return [self._get_metric_object(m, y_t, y_p) for m in metrics]
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\engine\compile_utils.py", line 650, in _get_metric_object
+        metric_obj = metrics_mod.get(metric)
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\metrics\__init__.py", line 204, in get
+        return deserialize(str(identifier))
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\metrics\__init__.py", line 158, in deserialize
+        return deserialize_keras_object(
+    File "C:\Users\cpnbe\AppData\Roaming\Python\Python311\site-packages\keras\saving\legacy\serialization.py", line 543, in deserialize_keras_object
+        raise ValueError(
+
+    ValueError: Unknown metric function: 'f1_macro'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+

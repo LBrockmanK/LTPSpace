@@ -1,0 +1,59 @@
+Beginning run:
+
+Correct Number of Parameters...
+Testing initial model...
+Starting Score: 0.568
+Beginning Parameter Space Search...
+Current Stage: 6
+Iteration: 1, Time: 57.12950944900513, Score: 0.668
+Iteration: 2, Time: 72.0071005821228, Score: 0.668
+Iteration: 3, Time: 71.79818224906921, Score: 0.668
+Iteration: 4, Time: 72.90624237060547, Score: 0.668
+Iteration: 5, Time: 74.89755177497864, Score: 0.668
+Iteration: 6, Time: 71.73491883277893, Score: 0.668
+Current Stage: 5
+Iteration: 7, Time: 71.09143877029419, Score: 0.668
+Iteration: 8, Time: 71.0000491142273, Score: 0.668
+Iteration: 9, Time: 71.09164619445801, Score: 0.668
+Iteration: 10, Time: 71.45162630081177, Score: 0.668
+Iteration: 11, Time: 71.61586856842041, Score: 0.744
+Iteration: 12, Time: 93.720370054245, Score: 0.744
+Current Stage: 4
+Iteration: 13, Time: 93.00776815414429, Score: 0.744
+Iteration: 14, Time: 92.39967846870422, Score: 0.744
+Iteration: 15, Time: 93.14605617523193, Score: 0.744
+Iteration: 16, Time: 93.00860285758972, Score: 0.744
+Iteration: 17, Time: 95.65580606460571, Score: 0.744
+Iteration: 18, Time: 94.43268918991089, Score: 0.744
+Current Stage: 3
+Iteration: 19, Time: 93.88813734054565, Score: 0.744
+Iteration: 20, Time: 92.69804358482361, Score: 0.744
+Iteration: 21, Time: 92.50185775756836, Score: 0.744
+Iteration: 22, Time: 93.51673436164856, Score: 0.744
+Iteration: 23, Time: 93.64583373069763, Score: 0.744
+Iteration: 24, Time: 93.06554675102234, Score: 0.744
+Current Stage: 2
+Iteration: 25, Time: 93.30478191375732, Score: 0.744
+Iteration: 26, Time: 92.9992516040802, Score: 0.76
+Iteration: 27, Time: 88.43505787849426, Score: 0.76
+Iteration: 28, Time: 89.6499674320221, Score: 0.76
+Iteration: 29, Time: 88.94305777549744, Score: 0.76
+Iteration: 30, Time: 88.21069240570068, Score: 0.76
+Current Stage: 1
+Iteration: 31, Time: 88.49677181243896, Score: 0.76
+Iteration: 32, Time: 88.96502256393433, Score: 0.76
+Iteration: 33, Time: 88.03980207443237, Score: 0.76
+Iteration: 34, Time: 88.03363418579102, Score: 0.76
+Iteration: 35, Time: 90.12316727638245, Score: 0.76
+Iteration: 36, Time: 86.5663652420044, Score: 0.76
+Current Stage: 0
+Iteration: 37, Time: 90.75016403198242, Score: 0.76
+Iteration: 38, Time: 88.20873475074768, Score: 0.76
+Iteration: 39, Time: 99.8271267414093, Score: 0.76
+Iteration: 40, Time: 88.95565938949585, Score: 0.76
+Iteration: 41, Time: 93.71791100502014, Score: 0.76
+Iteration: 42, Time: 95.1127245426178, Score: 0.76
+Parameters converged, performing final scoring...
+Final Parameters:
+[213.0, 128, 234.25]
+Total runtime: 3676.6947638988495

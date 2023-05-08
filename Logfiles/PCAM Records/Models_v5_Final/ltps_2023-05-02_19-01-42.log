@@ -1,0 +1,40 @@
+05/02/2023 07:01:42 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+05/02/2023 07:01:42 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+05/02/2023 07:01:42 PM [INFO] Added parameter: Dense1Size: min=768, max=1024, is_integer=True, resolution=1, stages=7
+05/02/2023 07:01:42 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x00000163488F1210>
+05/02/2023 07:01:42 PM [INFO] Recovering from: Logfiles\ltps_2023-05-01_22-03-29.log
+05/02/2023 07:01:42 PM [INFO] Recovered score: 0.730462962962963
+05/02/2023 07:01:42 PM [INFO] Recovered params: [18, 128, 976]
+05/02/2023 07:01:42 PM [INFO] Recovered currentparam: 2
+05/02/2023 07:01:42 PM [INFO] Recovered direction: False
+05/02/2023 07:01:42 PM [INFO] Recovered stages: 1
+05/02/2023 07:01:42 PM [INFO] Beginning Parameter Space Search...
+05/02/2023 07:01:42 PM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 2; Direction: False; Stage: 1;
+05/02/2023 07:01:42 PM [DEBUG] Trying Dense1Size from 976 to 974
+05/02/2023 08:33:17 PM [INFO] Iteration:2, Time:5495.039094686508, Score:0.7005555555555555
+05/02/2023 08:33:17 PM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 0; Direction: True; Stage: 0;
+05/02/2023 08:33:17 PM [DEBUG] Trying Conv2DSize-1 from 18 to 20
+05/02/2023 10:06:32 PM [INFO] Iteration:3, Time:5595.518019199371, Score:0.6859259259259259
+05/02/2023 10:06:32 PM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 0; Direction: False; Stage: 0;
+05/02/2023 10:06:32 PM [DEBUG] Trying Conv2DSize-1 from 18 to 16
+05/02/2023 11:38:00 PM [INFO] Iteration:4, Time:5487.5374212265015, Score:0.710925925925926
+05/02/2023 11:38:00 PM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 1; Direction: True; Stage: 0;
+05/02/2023 11:38:00 PM [DEBUG] Trying Conv2DSize-2 from 128 to 126
+05/03/2023 01:06:19 AM [INFO] Iteration:5, Time:5298.551348924637, Score:0.6985185185185185
+05/03/2023 01:06:19 AM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 2; Direction: True; Stage: 0;
+05/03/2023 01:06:19 AM [DEBUG] Trying Dense1Size from 976 to 977
+05/03/2023 02:40:14 AM [INFO] Iteration:6, Time:5634.882425069809, Score:0.7138888888888889
+05/03/2023 02:40:14 AM [INFO] Status Update - Score: 0.730462962962963; Parameters: [18, 128, 976]; Currentparam: 2; Direction: False; Stage: 0;
+05/03/2023 02:40:14 AM [DEBUG] Trying Dense1Size from 976 to 975
+05/03/2023 04:15:35 AM [INFO] Iteration:7, Time:5720.945984840393, Score:0.6737962962962963
+05/03/2023 04:15:35 AM [INFO] Parameters converged, performing final scoring...
+
+05/03/2023 05:00:02 AM [INFO] Learning Curve Data:
+05/03/2023 05:00:02 AM [INFO] Sample Sizes:            810     1620     2430     3240     4050     4860     5670     6480     7290     8100
+05/03/2023 05:00:02 AM [INFO] Train Scores:        0.91728  0.59877  0.87654  0.79969  0.68691  0.77243  0.80670  0.43503  0.74719  0.77556
+05/03/2023 05:00:02 AM [INFO] Test Scores:         0.70771  0.53671  0.71123  0.67844  0.64785  0.69529  0.74737  0.42269  0.68519  0.68593
+05/03/2023 05:00:02 AM [INFO] Validation Scores:   0.69370  0.54185  0.70926  0.67963  0.65667  0.69519  0.73704  0.41259  0.67333  0.67741
+05/03/2023 05:00:03 AM [INFO] Final Parameters:
+[18, 128, 976]
+05/03/2023 05:00:03 AM [INFO] Total runtime: 35901.113402843475

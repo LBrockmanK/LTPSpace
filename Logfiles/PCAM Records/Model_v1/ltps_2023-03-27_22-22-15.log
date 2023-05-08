@@ -1,0 +1,28 @@
+03/27/2023 10:22:15 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+03/27/2023 10:22:15 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+03/27/2023 10:22:15 PM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+03/27/2023 10:22:15 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+03/27/2023 10:22:15 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000018D08643A10>
+03/27/2023 10:22:15 PM [ERROR] Unable to identify log file for recovery.
+03/27/2023 10:22:15 PM [ERROR] Recovery Failed.
+03/27/2023 10:22:15 PM [INFO] Beginning Parameter Space Search...
+03/27/2023 10:22:15 PM [INFO] Testing initial model...
+03/27/2023 10:33:35 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018D0D1FD440> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/27/2023 10:35:17 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000018D0865D1C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+03/27/2023 10:44:20 PM [INFO] Iteration:2, Time:1324.787269115448, Score:0.4986734590155801
+03/27/2023 10:44:20 PM [INFO] Starting Score: 0.4986734590155801
+03/27/2023 10:44:20 PM [DEBUG] Trying Dense1Size from 165 to 676
+03/27/2023 11:11:46 PM [INFO] Iteration:3, Time:1646.4049468040466, Score:0.5535364489064634
+03/27/2023 11:11:46 PM [INFO] Improvement found, new high score: 0.5535364489064634
+03/27/2023 11:11:46 PM [INFO] Status Update - Score: 0.5535364489064634; Parameters: [26, 128, 676, 0.2]; Currentparam: 3; Direction: True; Stage: 8;
+03/27/2023 11:11:46 PM [INFO] Parameters converged, performing final scoring...
+
+03/27/2023 11:26:33 PM [INFO] Learning Curve Data:
+03/27/2023 11:26:33 PM [INFO] Sample Sizes:             60      120      180      240      300      360      420      480      540      600
+03/27/2023 11:26:33 PM [INFO] Train Scores:        0.74699  0.92562  0.00000  0.93600  0.70345  0.71345  0.72423  0.68347  0.67985  0.67403
+03/27/2023 11:26:33 PM [INFO] Test Scores:         0.67565  0.76720  0.00000  0.75815  0.67553  0.67776  0.55333  0.67917  0.67519  0.67550
+03/27/2023 11:26:33 PM [INFO] Validation Scores:   0.70968  0.76995  0.00000  0.80180  0.71197  0.71661  0.48235  0.70968  0.71197  0.70968
+03/27/2023 11:26:33 PM [INFO] Final Parameters:
+[26, 128, 676, 0.2]
+03/27/2023 11:26:33 PM [INFO] Total runtime: 3858.1829166412354

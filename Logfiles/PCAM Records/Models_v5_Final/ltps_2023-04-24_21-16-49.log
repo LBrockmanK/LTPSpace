@@ -1,0 +1,25 @@
+04/24/2023 09:16:49 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/24/2023 09:16:49 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/24/2023 09:16:49 PM [INFO] Added parameter: Dense1Size: min=768, max=1024, is_integer=True, resolution=1, stages=7
+04/24/2023 09:16:49 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000001B683642950>
+04/24/2023 09:16:49 PM [INFO] Recovering from: Logfiles\ltps_2023-04-23_22-01-00.log
+04/24/2023 09:16:49 PM [INFO] Recovered score: 0.6545833333333334
+04/24/2023 09:16:49 PM [INFO] Recovered params: [50, 108, 1024]
+04/24/2023 09:16:49 PM [INFO] Recovered currentparam: 2
+04/24/2023 09:16:49 PM [INFO] Recovered direction: True
+04/24/2023 09:16:49 PM [INFO] Recovered stages: 5
+04/24/2023 09:16:49 PM [INFO] Beginning Parameter Space Search...
+04/24/2023 09:16:49 PM [INFO] Status Update - Score: 0.6545833333333334; Parameters: [50, 108, 1024]; Currentparam: 2; Direction: True; Stage: 5;
+04/24/2023 09:16:49 PM [DEBUG] Trying Dense1Size from 1024 to 992
+04/25/2023 02:43:06 AM [INFO] Iteration:2, Time:19577.337629556656, Score:0.6669166666666666
+04/25/2023 02:43:07 AM [INFO] Improvement found, new high score: 0.6669166666666666
+04/25/2023 02:43:07 AM [INFO] Status Update - Score: 0.6669166666666666; Parameters: [50, 108, 992]; Currentparam: 0; Direction: True; Stage: 4;
+04/25/2023 02:43:07 AM [DEBUG] Trying Conv2DSize-1 from 50 to 64
+04/25/2023 07:58:45 AM [INFO] Iteration:3, Time:18938.531572818756, Score:0.6268333333333334
+04/25/2023 07:58:45 AM [INFO] Status Update - Score: 0.6669166666666666; Parameters: [50, 108, 992]; Currentparam: 0; Direction: False; Stage: 4;
+04/25/2023 07:58:45 AM [DEBUG] Trying Conv2DSize-1 from 50 to 18
+04/25/2023 12:45:33 PM [INFO] Iteration:4, Time:17208.009104013443, Score:0.6789166666666667
+04/25/2023 12:45:34 PM [INFO] Improvement found, new high score: 0.6789166666666667
+04/25/2023 12:45:34 PM [INFO] Status Update - Score: 0.6789166666666667; Parameters: [18, 108, 992]; Currentparam: 1; Direction: True; Stage: 4;
+04/25/2023 12:45:34 PM [DEBUG] Trying Conv2DSize-2 from 108 to 128

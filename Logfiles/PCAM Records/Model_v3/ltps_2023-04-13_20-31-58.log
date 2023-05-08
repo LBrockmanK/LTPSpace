@@ -1,0 +1,30 @@
+04/13/2023 08:31:58 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/13/2023 08:31:58 PM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/13/2023 08:31:58 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/13/2023 08:31:58 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x000001959ACD1A10>
+04/13/2023 08:31:58 PM [INFO] Recovering from: Logfiles\ltps_2023-04-12_22-17-19.log
+04/13/2023 08:31:58 PM [INFO] Recovered score: 0.7375
+04/13/2023 08:31:58 PM [INFO] Recovered params: [182, 1022, 0.6000000000000001]
+04/13/2023 08:31:58 PM [INFO] Recovered currentparam: 2
+04/13/2023 08:31:58 PM [INFO] Recovered direction: True
+04/13/2023 08:31:58 PM [INFO] Recovered stages: 0
+04/13/2023 08:31:58 PM [INFO] Beginning Parameter Space Search...
+04/13/2023 08:31:58 PM [INFO] Status Update - Score: 0.7375; Parameters: [182, 1022, 0.6000000000000001]; Currentparam: 2; Direction: True; Stage: 0;
+04/13/2023 08:31:59 PM [DEBUG] Trying Dropout1 from 0.6000000000000001 to 0.7000000000000001
+04/13/2023 09:30:36 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001959AD31120> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/13/2023 09:42:16 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x000001959F92DEE0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/13/2023 10:29:02 PM [INFO] Iteration:2, Time:7023.906834125519, Score:0.69375
+04/13/2023 10:29:03 PM [INFO] Status Update - Score: 0.7375; Parameters: [182, 1022, 0.6000000000000001]; Currentparam: 2; Direction: False; Stage: 0;
+04/13/2023 10:29:03 PM [DEBUG] Trying Dropout1 from 0.6000000000000001 to 0.5
+04/14/2023 12:25:19 AM [INFO] Iteration:3, Time:6975.674996137619, Score:0.7112499999999999
+04/14/2023 12:25:19 AM [INFO] Parameters converged, performing final scoring...
+
+04/14/2023 01:23:17 AM [INFO] Learning Curve Data:
+04/14/2023 01:23:17 AM [INFO] Sample Sizes:             60      120      180      240      300      360      420      480      540      600
+04/14/2023 01:23:17 AM [INFO] Train Scores:        0.80000  0.87500  0.92222  0.93333  0.93000  0.70833  0.94762  0.75625  0.92778  0.92000
+04/14/2023 01:23:17 AM [INFO] Test Scores:         0.61486  0.65147  0.69355  0.72679  0.70000  0.55455  0.76316  0.55312  0.74231  0.71500
+04/14/2023 01:23:17 AM [INFO] Validation Scores:   0.60500  0.59000  0.62500  0.69500  0.70500  0.50500  0.72500  0.59000  0.75500  0.65000
+04/14/2023 01:23:18 AM [INFO] Final Parameters:
+[182, 1022, 0.6000000000000001]
+04/14/2023 01:23:18 AM [INFO] Total runtime: 17479.3016269207

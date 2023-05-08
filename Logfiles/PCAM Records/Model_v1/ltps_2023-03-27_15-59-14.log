@@ -1,0 +1,16 @@
+03/27/2023 03:59:14 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+03/27/2023 03:59:14 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+03/27/2023 03:59:14 PM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+03/27/2023 03:59:14 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+03/27/2023 03:59:14 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000028DDCF47090>
+03/27/2023 03:59:14 PM [INFO] Recovering from: Logfiles\ltps_2023-03-27_14-12-08.log
+03/27/2023 03:59:14 PM [INFO] Recovered params from line 48: [25.0, 115.0, 172.0, 0.8]
+03/27/2023 03:59:14 PM [INFO] Recovered stages from line 47: 0
+03/27/2023 03:59:14 PM [INFO] Recovered score from line 46: 0.848021978021978
+03/27/2023 03:59:14 PM [INFO] Beginning Parameter Space Search...
+03/27/2023 03:59:14 PM [INFO] Parameters converged, performing final scoring...
+
+03/27/2023 04:00:51 PM [INFO] Final Parameters:
+[25.0, 115.0, 172.0, 0.8]
+03/27/2023 04:00:51 PM [INFO] Total runtime: 96.77138781547546

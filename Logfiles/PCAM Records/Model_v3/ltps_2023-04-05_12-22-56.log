@@ -1,0 +1,21 @@
+04/05/2023 12:22:56 PM [INFO] Added parameter: Conv2DSize: min=1, max=256, is_integer=True, resolution=1, stages=6
+04/05/2023 12:22:56 PM [INFO] Added parameter: Dense1Size: min=512, max=1024, is_integer=True, resolution=1, stages=8
+04/05/2023 12:22:56 PM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/05/2023 12:22:56 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000022F2A299150>
+04/05/2023 12:22:56 PM [INFO] Recovering from: Logfiles\ltps_2023-04-05_12-22-22.log
+04/05/2023 12:22:56 PM [INFO] Recovered score: 0.7430728646318615
+04/05/2023 12:22:56 PM [INFO] Recovered params: [213, 820, 0.8]
+04/05/2023 12:22:56 PM [INFO] Recovered currentparam: 1
+04/05/2023 12:22:56 PM [INFO] Recovered direction: False
+04/05/2023 12:22:56 PM [INFO] Recovered stages: 8
+04/05/2023 12:22:56 PM [INFO] Beginning Parameter Space Search...
+04/05/2023 12:22:56 PM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 1; Direction: False; Stage: 8;
+04/05/2023 12:22:56 PM [DEBUG] Trying Dense1Size from 820 to 564
+04/05/2023 01:03:25 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000022F2A541120> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/05/2023 01:11:31 PM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000022F2F13C7C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/05/2023 01:43:53 PM [INFO] Iteration:2, Time:4856.608265161514, Score:0.6929187073603084
+04/05/2023 01:43:53 PM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 2; Direction: True; Stage: 8;
+04/05/2023 01:43:53 PM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 0; Direction: True; Stage: 7;
+04/05/2023 01:43:53 PM [INFO] Status Update - Score: 0.7430728646318615; Parameters: [213, 820, 0.8]; Currentparam: 1; Direction: True; Stage: 7;
+04/05/2023 01:43:53 PM [DEBUG] Trying Dense1Size from 820 to 948

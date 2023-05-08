@@ -1,0 +1,57 @@
+04/03/2023 11:23:10 AM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/03/2023 11:23:10 AM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/03/2023 11:23:10 AM [INFO] Added parameter: Dense1Size: min=1, max=1024, is_integer=True, resolution=1, stages=8
+04/03/2023 11:23:10 AM [INFO] Added parameter: Dropout1: min=0.1, max=0.9, is_integer=False, resolution=0.1, stages=2
+04/03/2023 11:23:10 AM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000027B8EBD66D0>
+04/03/2023 11:23:10 AM [INFO] Recovering from: Logfiles\ltps_2023-04-03_06-52-19.log
+04/03/2023 11:23:10 AM [INFO] Recovered score: 0.6648590422904699
+04/03/2023 11:23:10 AM [INFO] Recovered params: [42, 80, 699, 0.7000000000000001]
+04/03/2023 11:23:10 AM [INFO] Recovered currentparam: 0
+04/03/2023 11:23:10 AM [INFO] Recovered direction: True
+04/03/2023 11:23:10 AM [INFO] Recovered stages: 1
+04/03/2023 11:23:10 AM [INFO] Beginning Parameter Space Search...
+04/03/2023 11:23:10 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 1;
+04/03/2023 11:23:10 AM [DEBUG] Trying Conv2DSize-1 from 42 to 46
+04/03/2023 11:29:08 AM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000027B8EC2C360> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/03/2023 11:30:13 AM [WARNING] 5 out of the last 13 calls to <function Model.make_predict_function.<locals>.predict_function at 0x0000027B8E6DE840> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+04/03/2023 11:35:35 AM [INFO] Iteration:2, Time:745.4733333587646, Score:0.6077756132789165
+04/03/2023 11:35:36 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 0; Direction: False; Stage: 1;
+04/03/2023 11:35:36 AM [DEBUG] Trying Conv2DSize-1 from 42 to 38
+04/03/2023 11:48:04 AM [INFO] Iteration:3, Time:747.8502280712128, Score:0.5141102654028555
+04/03/2023 11:48:04 AM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 1;
+04/03/2023 11:48:04 AM [DEBUG] Trying Conv2DSize-2 from 80 to 84
+04/03/2023 12:01:14 PM [INFO] Iteration:4, Time:790.6684908866882, Score:0.4528955501602887
+04/03/2023 12:01:15 PM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 1; Direction: False; Stage: 1;
+04/03/2023 12:01:15 PM [DEBUG] Trying Conv2DSize-2 from 80 to 76
+04/03/2023 12:13:11 PM [INFO] Iteration:5, Time:716.0791344642639, Score:0.5575266885279502
+04/03/2023 12:13:11 PM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 1;
+04/03/2023 12:13:11 PM [DEBUG] Trying Dense1Size from 699 to 703
+04/03/2023 12:25:23 PM [INFO] Iteration:6, Time:731.6632878780365, Score:0.6529824332908621
+04/03/2023 12:25:23 PM [INFO] Status Update - Score: 0.6648590422904699; Parameters: [42, 80, 699, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 1;
+04/03/2023 12:25:23 PM [DEBUG] Trying Dense1Size from 699 to 695
+04/03/2023 12:37:23 PM [INFO] Iteration:7, Time:719.7326307296753, Score:0.6782111517297883
+04/03/2023 12:37:23 PM [INFO] Improvement found, new high score: 0.6782111517297883
+04/03/2023 12:37:23 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 3; Direction: True; Stage: 1;
+04/03/2023 12:37:23 PM [DEBUG] Trying Dropout1 from 0.7000000000000001 to 0.9
+04/03/2023 12:50:56 PM [INFO] Iteration:8, Time:812.5635833740234, Score:0.6350638402995789
+04/03/2023 12:50:56 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 3; Direction: False; Stage: 1;
+04/03/2023 12:50:56 PM [DEBUG] Trying Dropout1 from 0.7000000000000001 to 0.5
+04/03/2023 01:02:34 PM [INFO] Iteration:9, Time:698.2299365997314, Score:0.4005341087783589
+04/03/2023 01:02:34 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 0; Direction: True; Stage: 0;
+04/03/2023 01:02:34 PM [DEBUG] Trying Conv2DSize-1 from 42 to 44
+04/03/2023 01:14:34 PM [INFO] Iteration:10, Time:719.3787212371826, Score:0.5920739739713404
+04/03/2023 01:14:34 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 0; Direction: False; Stage: 0;
+04/03/2023 01:14:34 PM [DEBUG] Trying Conv2DSize-1 from 42 to 40
+04/03/2023 01:26:24 PM [INFO] Iteration:11, Time:710.3271958827972, Score:0.6128810876569665
+04/03/2023 01:26:25 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 1; Direction: True; Stage: 0;
+04/03/2023 01:26:25 PM [DEBUG] Trying Conv2DSize-2 from 80 to 82
+04/03/2023 01:40:08 PM [INFO] Iteration:12, Time:823.6227402687073, Score:0.4678606958561984
+04/03/2023 01:40:08 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 1; Direction: False; Stage: 0;
+04/03/2023 01:40:09 PM [DEBUG] Trying Conv2DSize-2 from 80 to 78
+04/03/2023 01:53:14 PM [INFO] Iteration:13, Time:785.047111749649, Score:0.48185508857877635
+04/03/2023 01:53:14 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 2; Direction: True; Stage: 0;
+04/03/2023 01:53:14 PM [DEBUG] Trying Dense1Size from 695 to 697
+04/03/2023 02:05:56 PM [INFO] Iteration:14, Time:762.3352189064026, Score:0.6564082486494256
+04/03/2023 02:05:56 PM [INFO] Status Update - Score: 0.6782111517297883; Parameters: [42, 80, 695, 0.7000000000000001]; Currentparam: 2; Direction: False; Stage: 0;
+04/03/2023 02:05:57 PM [DEBUG] Trying Dense1Size from 695 to 693

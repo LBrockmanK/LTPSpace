@@ -1,0 +1,24 @@
+04/27/2023 06:32:55 PM [INFO] Added parameter: Conv2DSize-1: min=1, max=64, is_integer=True, resolution=1, stages=4
+04/27/2023 06:32:55 PM [INFO] Added parameter: Conv2DSize-2: min=1, max=128, is_integer=True, resolution=1, stages=5
+04/27/2023 06:32:55 PM [INFO] Added parameter: Dense1Size: min=768, max=1024, is_integer=True, resolution=1, stages=7
+04/27/2023 06:32:55 PM [INFO] Beginning run:
+<ltpspace.Explorer object at 0x0000012CCB158A10>
+04/27/2023 06:32:55 PM [INFO] Recovering from: Logfiles\ltps_2023-04-26_22-10-53.log
+04/27/2023 06:32:55 PM [INFO] Recovered score: 0.7133333333333333
+04/27/2023 06:32:55 PM [INFO] Recovered params: [18, 108, 976]
+04/27/2023 06:32:55 PM [INFO] Recovered currentparam: 0
+04/27/2023 06:32:55 PM [INFO] Recovered direction: False
+04/27/2023 06:32:55 PM [INFO] Recovered stages: 3
+04/27/2023 06:32:55 PM [INFO] Beginning Parameter Space Search...
+04/27/2023 06:32:55 PM [INFO] Status Update - Score: 0.7133333333333333; Parameters: [18, 108, 976]; Currentparam: 0; Direction: False; Stage: 3;
+04/27/2023 06:32:55 PM [DEBUG] Trying Conv2DSize-1 from 18 to 2
+04/27/2023 09:39:35 PM [INFO] Iteration:2, Time:11199.788284540176, Score:0.6978703703703705
+04/27/2023 09:39:35 PM [INFO] Status Update - Score: 0.7133333333333333; Parameters: [18, 108, 976]; Currentparam: 1; Direction: True; Stage: 3;
+04/27/2023 09:39:35 PM [DEBUG] Trying Conv2DSize-2 from 108 to 124
+04/28/2023 02:18:36 AM [INFO] Iteration:3, Time:16741.06133198738, Score:0.7299999999999999
+04/28/2023 02:18:36 AM [INFO] Improvement found, new high score: 0.7299999999999999
+04/28/2023 02:18:36 AM [INFO] Status Update - Score: 0.7299999999999999; Parameters: [18, 124, 976]; Currentparam: 2; Direction: True; Stage: 3;
+04/28/2023 02:18:36 AM [DEBUG] Trying Dense1Size from 976 to 984
+04/28/2023 06:57:06 AM [INFO] Iteration:4, Time:16709.86059808731, Score:0.7012962962962963
+04/28/2023 06:57:07 AM [INFO] Status Update - Score: 0.7299999999999999; Parameters: [18, 124, 976]; Currentparam: 2; Direction: False; Stage: 3;
+04/28/2023 06:57:07 AM [DEBUG] Trying Dense1Size from 976 to 968
